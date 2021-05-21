@@ -12,6 +12,7 @@ select {
 }
 
 body {
+  background: #fff !important;
   width: 100%;
   height: 993px;
 }
@@ -132,9 +133,10 @@ i {
 
 .full-View {
   position: absolute;
-  width: 73%;
+  width: 75%;
   max-width: 1000px;
   top: -55px;
+  left: 0;
   display: flex;
   justify-content: space-around;
   gap: 40px;
@@ -144,6 +146,10 @@ i {
   display: flex;
   flex: 1;
   gap: 15px;
+}
+
+table tr:last-child>* {
+  border: 0;
 }
 
 .bottom-right {
@@ -174,11 +180,12 @@ i {
 
 .divscrollbar {
   background: white;
-  padding: 0 5px 0 0;
   position: relative;
-  overflow: scroll;
+  overflow: hidden;
   max-height: 500px;
   overflow-x: hidden;
+  border-radius: 20px;
+
   /* Hide horizontal scrollbar */
 
 
@@ -188,38 +195,6 @@ tr:nth-last-child() {
   border-right: 0;
 }
 
-.divscrollbar::after {
-  content: '';
-  position: absolute;
-  width: 100px;
-  height: 82px;
-  top: 0;
-  right: 0;
-  background: #48a935;
-  z-index: 0;
-}
-
-.divscrollbar::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.divscrollbar::-webkit-scrollbar {
-  z-index: 1;
-  width: 6px;
-}
-
-
-
-
-
-.divscrollbar::-webkit-scrollbar-thumb {
-  background-color: #48a935;
-  border-radius: 30px;
-}
-
-.divscrollbar::-webkit-scrollbar-corner {
-  background: rgba(0, 0, 0, 0);
-}
 
 
 .changePass {
@@ -315,6 +290,11 @@ tr:nth-last-child() {
 }
 
 
+thead {
+  border-radius: 100px;
+}
+
+
 
 
 table {
@@ -325,13 +305,11 @@ table {
 
 .tableHeader {
   color: white;
-  background: #48a935;
-  position: sticky;
+  background: #fff;
   top: 0;
 }
 
 th {
-  position: sticky;
   top: 0;
   background-color: #48a935;
   border: 0;
@@ -552,4 +530,24 @@ ed relative:  customdropper*/
 
 .active {
   display: block;
+}
+
+.endtime {
+  width: 20px;
+}
+
+.payrollview {
+  gap: 0px;
+}
+
+@media only screen and (max-width: 1550px) {
+  .full-View {
+    margin: 5px;
+  }
+
+  .bottom-left {
+    gap: 5px;
+  }
+
+
 }
