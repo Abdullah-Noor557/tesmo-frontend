@@ -123,7 +123,6 @@ i {
 .leftHeader {
   display: flex;
   flex-direction: column;
-  border-right: 4px #48a935 solid;
   flex: 5;
   padding: 0 10px;
   gap: 50px;
@@ -534,6 +533,15 @@ ed relative:  customdropper*/
 
 .endtime {
   width: 20px;
+
+}
+
+.line {
+  height: 100%;
+  width: 6px;
+  background-color: #48a935;
+  border-radius: 100px;
+
 }
 
 .payrollview {
