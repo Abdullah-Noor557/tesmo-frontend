@@ -293,7 +293,7 @@ table {
 .tableHeaderText {
   border: 5px solid #48a935;
   padding: 10px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .tableDataRow {
@@ -309,8 +309,9 @@ table {
 }
 
 .addedBy {
-  display: flex;
-  align-items: center;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center;
 }
 
 .user-name {
