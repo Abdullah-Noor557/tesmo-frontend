@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale= 
+1.0">
+    <title>Tismo App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <main>
+        <div class="leftSideBar">
+            <div class="logo">
+                <img src="img/toofacile.png" alt="">
+            </div>
+            <div class="side-buttons">
+                <div class="sidebtns-container">
+                    <div class="side-section1">
+                        <button class="side-button">Add a Task</button>
+                        <button class="side-button activeEntity">Data</button>
+                        <button class="side-button">Statistics</button>
+                    </div>
+                    <div class="hLine">
+                        <hr>
+                    </div>
+                    <div class="side-section2">
+                        <button class="side-button">Other Apps</button>
+                        <button class="side-button">Pasici</button>
+                        <button class="side-button">Bye Bye</button>
+                    </div>
+                </div>
+                <div class="side-bottom">
+                    <i class="fas fa-cog fa-2x"></i>
+                    <img src="img/logout.png" alt="" srcset="" class="logout">
+                </div>
+            </div>
+        </div>
+        <div class="mainSection">
+            <div class="main-header">
+                <div class="leftHeader">
+                    <div class="leftHeader-top">
+                        <div class="logo-main">
+                            <img src="img/tismo.png" alt="" class="tismologo">
+                        </div>
+                        <div class="left-controls">
+                            <div class="toggleFull">
+                                <label class="switch">
+                                    <input type="checkbox" checked='checked'>
+                                    <span class="slider round"></span>
+                                </label>
+                                <p class="control-text">Full View</p>
+                            </div>
+                            <div class="toggleIT">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                                <p class="control-text">IT View</p>
+                            </div>
+                            <div class="togglePay">
+
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                                <p class="control-text">Payroll View</p>
+                            </div>
+                            <div class="btnIcon">
+                                <img src="img/loupe.svg" alt="" class="btnicons" draggable="false">
+                            </div>
+                            <div class="btnIcon">
+                                <img src="img/Ellipse 7.svg" alt="" class="btnicons" draggable="false">
+                            </div>
+                            <div class="btnIcon">
+                                <img src="img/file.svg" alt="" class="btnicons" draggable="false">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leftHeader-Bottom">
+
+                    </div>
+                </div>
+                <div class="rightHeader">
+                    <div class="profileInfo">
+                        <div class="profilePicContainer">
+                            <img src="img/avatar_michael.png" alt="" class="profilePic">
+                        </div>
+                        <div class="profileDetails">
+                            <h3 class="username">
+                                Michael
+                            </h3>
+                            <p class="userrole profilepara">GM</p>
+                            <p><a href="#" class="profilepara changePass">Change Password</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Full View Table -->
+            <div class="circular">
+                <div class="table FULLVIEW active ">
+                    <div class="full-View">
+                        <div class="bottom-left">
+
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Company</option>
+                                    <option value="1">Copany 2</option>
+                                    <option value="2">Copany 3</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:130px;">
+                                <select>
+                                    <option value="0">Department</option>
+                                    <option value="1">djasdij 2</option>
+                                    <option value="2">dep 3</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Add By</option>
+                                    <option value="1">abd 2</option>
+                                    <option value="1">add 3</option>
+                                </select>
+                            </div>
+
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">DeteRange</option>
+                                    <option value="1">Add By</option>
+                                    <option value="2">DeteRange</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="bottom-right">
+                            <button class="search-btn">Search</button>
+
+                        </div>
+                    </div>
+                    <table class="fullView">
+                        <tr class="tableHeader">
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/building.svg" alt="" class="headerIco"> Company
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/marketing.svg" alt="" class="headerIco"> Department
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/add-user.svg" alt="" class="headerIco"> Add By
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/calendar.svg" alt="" class="headerIco"> Date</div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/start.svg" alt="" class="headerIco"> Start Time
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/hourglass.svg" alt="" class="headerIco"> End Time
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/queue.svg" alt="" class="headerIco"> Duration
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/comment.svg" alt="" class="headerIco"> Comment
+                                </div>
+                            </th>
+
+                            <th class="tableHeaderText"></th>
+
+                        </tr>
+                        <tr class="tableDataRow">
+                            <td class="tableData">1</td>
+                            <td class="tableData">PayRoll</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">12-may-2021</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">13:50</td>
+                            <td class="tableData">0h:00</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="tableDataRow">
+                            <td class="tableData">Toficaile</td>
+                            <td class="tableData">PayRoll</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">12-may-2021</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">13:50</td>
+                            <td class="tableData">0h:00</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+            <!-- ITView Table -->
+            <div class="circular">
+
+                <div class="table ITVIEW ">
+                    <div class="full-View">
+                        <div class="bottom-left">
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Company</option>
+                                    <option value="1">Copany 2</option>
+                                    <option value="2">xdsfsd</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:130px;">
+                                <select>
+                                    <option value="0">Department</option>
+                                    <option value="1">1</option>
+                                    <option value="2">123829</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Add By</option>
+                                    <option value="1">5</option>
+                                    <option value="2">5sdfadsaf</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Task</option>
+                                    <option value="1">task2</option>
+                                    <option value="2">task2sdad</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Deterange</option>
+                                    <option value="1">detdsfdd</option>
+                                    <option value="2">detdsfdd87626</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Tab</option>
+                                    <option value="1">sd 2</option>
+                                    <option value="2">ssdfdsfd 2</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">App</option>
+                                    <option value="1">Prj 56</option>
+                                    <option value="2">Pdfdsfrj 56</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="bottom-right">
+                            <button class="search-btn">Search</button>
+
+                        </div>
+                    </div>
+                    <table class="">
+                        <tr class="tableHeader">
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/calendar.svg" alt="" class="headerIco"> Date</div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/add-user.svg" alt="" class="headerIco"> Add By
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/start.svg" alt="" class="headerIco"> Start Time
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/hourglass.svg" alt="" class="headerIco"> End Time
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/queue.svg" alt="" class="headerIco"> Duration
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/app.svg" alt="" class="headerIco"> App</div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/internet.svg" alt="" class="headerIco"> Tab</div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/clipboard.svg" alt="" class="headerIco"> Task</div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/comment.svg" alt="" class="headerIco"> Comment
+                                </div>
+                            </th>
+
+                            <th class="tableHeaderText">
+                        </tr>
+
+                        </tr>
+                        <tr class="tableDataRow">
+                            <td class="tableData">1</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">13:00</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">30mins</td>
+                            <td class="tableData">App1</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="tableDataRow">
+                            <td class="tableData">1</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">13:00</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">30mins</td>
+                            <td class="tableData">App1</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="tableDataRow">
+                            <td class="tableData">1</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">13:00</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">30mins</td>
+                            <td class="tableData">App1</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="tableDataRow">
+                            <td class="tableData">1</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">13:00</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">30mins</td>
+                            <td class="tableData">App1</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </div>
+            </div>
+
+            <!-- Payrole Table -->
+
+            <div class="circular">
+
+                <div class="table PAYROLL ">
+                    <div class="full-View">
+                        <div class="bottom-left">
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Company</option>
+                                    <option value="1">Copany 2</option>
+                                    <option value="2">Copany 3</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:130px;">
+                                <select>
+                                    <option value="0">Department</option>
+                                    <option value="1">1</option>
+                                    <option value="2">55</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Add By</option>
+                                    <option value="1">5</option>
+                                    <option value="2">dfs</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Task</option>
+                                    <option value="1">task2</option>
+                                    <option value="2">task23</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Deterange</option>
+                                    <option value="1"> 2</option>
+                                    <option value="2"> dfdsd2</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Client</option>
+                                    <option value="1">client 2</option>
+                                    <option value="2">client 2ds</option>
+                                </select>
+                            </div>
+                            <div class="custom-select" style="width:120px;">
+                                <select>
+                                    <option value="0">Project</option>
+                                    <option value="1">Prj 56</option>
+                                    <option value="2">Prj dfs56</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="bottom-right">
+                            <button class="search-btn">Search</button>
+
+                        </div>
+                    </div>
+                    <table class="">
+                        <tr class="tableHeader">
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/calendar.svg" alt="" class="headerIco"> Date</div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/add-user.svg" alt="" class="headerIco"> Add By
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/start.svg" alt="" class="headerIco"> Start Time
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/hourglass.svg" alt="" class="headerIco"> End Time
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/queue.svg" alt="" class="headerIco"> Duration
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/marketing.svg" alt="" class="headerIco"> Client
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/presentation.svg" alt="" class="headerIco"> Project
+                                </div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/clipboard.svg" alt="" class="headerIco"> Task</div>
+                            </th>
+                            <th class="tableHeaderText">
+                                <div class="headertxt"><img src="img/comment.svg" alt="" class="headerIco"> Comment
+                                </div>
+                            </th>
+
+                            <th class="tableHeaderText"></th>
+
+                        </tr>
+
+
+                        <tr class="tableDataRow">
+                            <td class="tableData">1</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">13:00</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">30mins</td>
+                            <td class="tableData">App1</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="tableDataRow">
+                            <td class="tableData">1</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">13:00</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">30mins</td>
+                            <td class="tableData">App1</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="tableDataRow">
+                            <td class="tableData">1</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">13:00</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">30mins</td>
+                            <td class="tableData">App1</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="tableDataRow">
+                            <td class="tableData">1</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">13:00</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">30mins</td>
+                            <td class="tableData">App1</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="tableDataRow">
+                            <td class="tableData">1</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">13:00</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">30mins</td>
+                            <td class="tableData">App1</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="tableDataRow">
+                            <td class="tableData">1</td>
+                            <td class="tableData ">
+                                <div class="addedBy"><img src="img/avatar Karina.png" alt="">
+                                    <p class="user-name">Krina</p>
+                                </div>
+                            </td>
+                            <td class="tableData">13:00</td>
+                            <td class="tableData">13:30</td>
+                            <td class="tableData">30mins</td>
+                            <td class="tableData">App1</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData">Tab2</td>
+                            <td class="tableData comment"> All kinds of comments will appear here</td>
+                            <td class="tableData">
+                                <div class="rowControl">
+                                    <img src="img/edit.svg" alt="" class="editRow rowControlIcons">
+                                    <img src="img/delete.svg" alt="" class="deleteRow rowControlIcons">
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
