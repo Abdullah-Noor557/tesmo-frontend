@@ -102,11 +102,7 @@ i {
   margin: 20px 0;
 }
 
-.activeEntity {
-  border-right: 3px solid;
-  color: #f07e13;
-  border-color: #f07e13;
-}
+
 
 .mainSection {
   overflow: hidden;
@@ -138,8 +134,9 @@ i {
   top: -55px;
   left: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 40px;
+  padding: 0 10px 0 0;
 }
 
 .bottom-left {
@@ -273,6 +270,7 @@ tr:nth-last-child() {
   width: 99%;
   border-spacing: 0;
   align-self: flex-end;
+  float: right;
 }
 
 
@@ -543,6 +541,18 @@ ed relative:  customdropper*/
 @media only screen and (max-width: 1550px) {
   .full-View {
     margin: 5px;
+  }
+
+  .bottom-left {
+    gap: 5px;
+  }
+
+
+}
+
+@media only screen and (max-width: 1900px) {
+  .full-View {
+    width: 75%;
   }
 
   .bottom-left {

@@ -236,6 +236,26 @@ body {
     transform: scaleX(1);
 }
 
+#activeEntity {
+    border-right: 3px solid;
+    color: #f07e13;
+    border-color: #f07e13;
+}
+
+#activeEntity:hover a {
+    color: #fff;
+}
+
+#activeEntity a {
+    color: #f07e13;
+}
+
+.activeEntity a {
+    color: #f07e13;
+}
+
+
+
 .left_side hr {
     margin: 36px 0 0;
     height: 3px;
